@@ -1,0 +1,37 @@
+name: Bug report
+description: Installation, editing or Cookidoo upload problem
+title: '[Bug] '
+body:
+  - type: markdown
+    attributes:
+      value: 'Issues are public. Never attach passwords, cookies, databases, raw logs or private launch URLs. Review diagnostics/screenshots before posting.'
+  - type: input
+    id: version
+    attributes:
+      label: Recipe Studio version and Windows version/build
+    validations:
+      required: true
+  - type: input
+    id: market
+    attributes:
+      label: Cookidoo market and TM7 firmware (if relevant)
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps, expected result and actual result
+      description: Include whether Created Recipes works in Cookidoo’s own editor. Use synthetic examples.
+    validations:
+      required: true
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Reviewed diagnostic report
+      description: Settings → Help and diagnostics. No private logs or database exports.
+      render: json
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy check
+      options:
+        - label: I checked that this report contains no credentials, cookies, email, private recipe data or identifying paths.
+          required: true

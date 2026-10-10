@@ -1,0 +1,24 @@
+name: Market and TM7 feedback
+description: Share a voluntary live test result
+title: '[Market test] '
+body:
+  - type: input
+    id: environment
+    attributes:
+      label: App version, Windows version, market and TM7 firmware
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: What worked and what did not?
+      description: Separate installation, connection, upload/read-back, device inspection and actual cooking. Does Cookidoo’s own Created Recipes editor work? Would you use this app again?
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy check
+      options:
+        - label: This public report contains no secrets, email, private recipes, databases, logs or identifying paths.
+          required: true
