@@ -1,6 +1,13 @@
 # Changelog
 
-No public binary releases yet. These entries describe locally tested builds/candidates, not publicly available downloads.
+1.0.3 is the first public beta. Earlier entries describe private test builds.
+
+## 1.0.3 — first public beta · 2026-10-10
+
+- Existing leaf branding across Windows setup, launcher, desktop/Start shortcuts, tray, browser favicon and sidebar.
+- Branded tray warning badge preserves failure visibility. No recipe/schema/upload changes.
+- Approved free personal-use beta terms, without expiry. Includes diagnostics and installer privacy/notices.
+- Owner reports successful installation and requested Windows checks. Unsigned Windows x64 distribution.
 
 ## 1.0.2 — public beta preparation candidate
 

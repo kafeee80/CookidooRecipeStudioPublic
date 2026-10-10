@@ -10,6 +10,6 @@ The integration uses an unofficial interface that may change or stop working. Ac
 
 Credentials do not survive app restart; reconnect to upload. If an upload outcome is uncertain, use Upload history reconciliation before creating another copy. Writes are not retried automatically.
 
-Windows x64 installer/tray/upgrade paths have local automated coverage. The owner successfully installed and used 1.0.1. Clean Windows VM, second account, real sign-in/reboot, Explorer restart, interactive busy-Quit and abrupt installer/disk/ACL failure checks remain release gates. These are not claimed as tested.
+Windows x64 installer/tray/upgrade paths have local automated coverage. The owner successfully installed and used 1.0.1. The owner reports installing 1.0.3 and successfully completing all requested Windows checks. This user report is not independent verification across all Windows versions, machines or accounts.
 
-Initial binaries are unsigned. Public beta publication remains pending. Support is best effort by one hobby maintainer, without a response-time promise. Local version-history browsing, automatic installation of updates, cloud accounts and mobile/LAN hosting are not included.
+The public beta binaries are unsigned. Support is best effort by one hobby maintainer, without a response-time promise. Local version-history browsing, automatic installation of updates, cloud accounts and mobile/LAN hosting are not included.

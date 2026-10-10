@@ -1,6 +1,6 @@
-# Recipe Studio — draft personal-use beta terms
+# Recipe Studio — personal-use beta terms
 
-**Draft for owner review before binary publication.** Maintainer: GitHub user kafeee80. These draft terms do not claim to settle legal identity/disclosure obligations. No business or legal entity is represented.
+Approved for the initial public beta on 2026-10-10. Maintainer: GitHub user kafeee80. This is an independent hobby project; no business or legal entity is represented.
 
 1. The initial beta is offered free for personal, non-commercial use on your own Windows computers. You may download, install, run and retain backup copies for that use. The initial beta has **no expiry date**, activation requirement or subscription. This does not guarantee that Cookidoo compatibility or support lasts forever.
 2. Application source remains private. These terms grant no open-source rights. Share the official release link rather than redistributing installers. Resale, paid bundling, commercial use and redistribution of modified application builds require separate permission, except rights that cannot be restricted under applicable law.
@@ -10,4 +10,4 @@
 6. Future versions may have different terms or pricing. That does not retroactively add an expiry or payment requirement to an initial beta copy obtained under its approved terms. No automatic payments or automatic installation are included.
 7. Third-party components remain under their own licenses. Included notices and runtime/LICENSE take precedence for those components; application restrictions do not override their permissions.
 
-The final version of these terms will be included in the approved installer and release notes. Contact for project questions: [GitHub Issues](https://github.com/kafeee80/CookidooRecipeStudioPublic/issues). Recipe Studio uses no official Vorwerk logos; Cookidoo and Thermomix names identify interoperability only.
+These terms accompany the initial public beta installer. Contact for project questions: [GitHub Issues](https://github.com/kafeee80/CookidooRecipeStudioPublic/issues). Recipe Studio uses no official Vorwerk logos; Cookidoo and Thermomix names identify interoperability only.
