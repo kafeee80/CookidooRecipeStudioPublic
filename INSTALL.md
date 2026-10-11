@@ -1,6 +1,6 @@
 # Install and manage Recipe Studio
 
-Download the approved [1.0.3 public beta](https://github.com/kafeee80/CookidooRecipeStudioPublic/releases/tag/v1.0.3). The installer is unsigned.
+Download the [1.0.4 public beta](https://github.com/kafeee80/CookidooRecipeStudioPublic/releases/tag/v1.0.4). The installer is unsigned.
 
 1. Open the official [Releases](https://github.com/kafeee80/CookidooRecipeStudioPublic/releases) page. Read that version's limits and beta terms.
 2. Download RecipeStudio-Setup-<version>.exe and SHA256SUMS.txt. Do not download the repository ZIP expecting an app.
@@ -13,7 +13,7 @@ Optional sign-in startup starts quietly in the tray. It does not open the browse
 
 ## Upgrades
 
-Export important recipes first. Save edits and finish any upload. Run the newer official installer for the same Windows account. It stops the owning app, takes a consistent app/data backup and verifies replacement files before launch. Saved recipes and upload history remain. Do not run parallel installers or downgrade manually. If an upgrade is interrupted, rerun the **same installer** to repair it before launching; ask for help if repair fails.
+Export important recipes first. Save edits and finish any upload. Run the newer official installer for the same Windows account. It stops the owning app, takes a consistent app/data backup and verifies replacement files before launch. Saved recipes and upload history remain. Version 1.0.4 adds recipe fields for native modes and spoon speed; older 1.0.3 cannot read exports using those additions. Keep the pre-upgrade backup if rollback becomes necessary. Do not run parallel installers or downgrade manually. If an upgrade is interrupted, rerun the **same installer** to repair it before launching; ask for help if repair fails.
 
 ## Uninstall and your data
 
