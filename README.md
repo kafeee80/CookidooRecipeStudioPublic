@@ -4,9 +4,9 @@ Prepare your own recipes, link ingredients to instructions, and upload them to C
 
 An independent hobby project by **kafeee80**. Not affiliated with or endorsed by Vorwerk. Cookidoo and Thermomix are trademarks of their respective owners.
 
-## Public beta 1.0.4
+## Public beta 1.0.5
 
-[Download Recipe Studio 1.0.4](https://github.com/kafeee80/CookidooRecipeStudioPublic/releases/tag/v1.0.4). The initial Windows beta is available for personal use. This repository contains documentation and issue templates, not application source. GitHub's “Source code” ZIP is not the application.
+[Download Recipe Studio 1.0.5](https://github.com/kafeee80/CookidooRecipeStudioPublic/releases/tag/v1.0.5). The initial Windows beta is available for personal use. This repository contains documentation and issue templates, not application source. GitHub's “Source code” ZIP is not the application.
 
 Installers are available under [Releases](https://github.com/kafeee80/CookidooRecipeStudioPublic/releases). Download only the named RecipeStudio-Setup-<version>.exe asset and its SHA256SUMS.txt. The initial beta is free for personal use with no expiry; read the [beta terms](BETA-TERMS.md).
 
@@ -16,7 +16,7 @@ Installers are available under [Releases](https://github.com/kafeee80/CookidooRe
 - Version 1.0.4 adds spoon speed and native Dough, Blend, Turbo, Warm Up, Rice Cooker, Steaming (Varoma) and Gentle Browning. These additions have official-source/automated coverage; live Cookidoo/TM7 acceptance is still pending. See [exact limits](KNOWN-LIMITS.md).
 - JSON import/export and GPT prompts for converting your own recipes. No built-in AI service or ChatGPT account integration.
 - One Upload/Update action with checking, Cookidoo read-back verification and upload recovery history.
-- Windows tray controls, optional quiet sign-in startup and upgrades that preserve saved recipes.
+- Windows tray controls, optional quiet sign-in startup, configurable installation folder and upgrades that preserve saved recipes.
 - Twenty selectable Cookidoo markets; **only the Czech market has user-reported live upload and TM7 UI acceptance**. The others are experimental.
 
 ![Example editor with synthetic test data](images/editor.png)

@@ -2,6 +2,14 @@
 
 1.0.3 is the first public beta. Earlier entries describe private test builds.
 
+## 1.0.5 — installation-folder selection · 2026-10-11
+
+- Shows the standard destination-folder page for new installs and upgrades; fresh installs can browse or enter a writable folder.
+- Upgrades remember the existing folder and show it on the confirmation page.
+- To relocate an existing installation, uninstall then reinstall. Recipes and backups remain in your Windows user profile.
+- Blocks cross-folder upgrades before stopping or replacing files, including silent installation overrides.
+- Upgrade/runtime/package checks and installer compilation pass; interactive destination-page acceptance remains pending. Cookidoo behavior and existing limitations are unchanged.
+
 ## 1.0.4 — native TM7 controls · 2026-10-11
 
 - Adds distinct spoon/soft speed, Dough, Blend, Turbo, Warm Up, Rice Cooker, Steaming (Varoma) and Gentle Browning.
