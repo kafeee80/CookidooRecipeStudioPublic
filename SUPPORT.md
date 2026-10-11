@@ -1,10 +1,10 @@
 # Report problems or share a test result
 
-Use [Issues](https://github.com/kafeee80/CookidooRecipeStudioPublic/issues/new/choose). Please include version, selected market, exact steps, expected/actual result and whether ordinary Created Recipes works in Cookidoo's own editor.
+Use the short [bug-report form](https://github.com/kafeee80/CookidooRecipeStudioPublic/issues/new?template=bug.yml). Include app/Windows version, Cookidoo market (or Not applicable), reproduction steps, the failing recipe step if relevant, and exact error text (or No error shown). For connection/upload failures, say whether Created Recipes works in Cookidoo’s own editor. Sanitized recipe JSON and a reviewed diagnostic report are optional.
 
-In **Settings → Help and diagnostics → Generate diagnostic report**, inspect the JSON and choose Copy diagnostic report. Paste it into the issue. This is available in the 1.0.2 candidate; 1.0.1 has Copy connection details after a failed connection. Last error code is server-session scoped and can describe an earlier error; reproduce immediately before generating. The lifecycle describes the server, not Windows tray health.
+In **Settings → Help and diagnostics → Generate diagnostic report**, inspect the JSON and choose Copy diagnostic report. Paste it into the issue. This is available in the current public beta. Last error code is server-session scoped and can describe an earlier error; reproduce immediately before generating. The lifecycle describes the server, not Windows tray health.
 
-A minimal synthetic recipe is welcome if needed. Screenshots should show no email, private recipe details, account IDs or private launch URLs. Never attach SQLite databases, passwords, cookies, server-control.json, logs or HAR/network captures. If the app cannot launch, state the installer version and error text with personal paths/details removed rather than dumping logs.
+Paste or attach minimal recipe JSON that reproduces the failure, using synthetic examples where possible. Remove private content, source links and identifying metadata. Issues and attachments are public. Screenshots should show no email, private recipe details, account IDs or private launch URLs. Never attach SQLite databases, passwords, cookies, session tokens, server-control.json, logs or HAR/network captures. If the app cannot launch, state the installer version and error text with personal paths/details removed rather than dumping logs.
 
 For uncertain uploads, reconcile in Upload history first. Do not keep creating duplicates to test a failure.
 

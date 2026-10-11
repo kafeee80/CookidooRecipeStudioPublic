@@ -10,6 +10,12 @@ An independent hobby project by **kafeee80**. Not affiliated with or endorsed by
 
 Installers are available under [Releases](https://github.com/kafeee80/CookidooRecipeStudioPublic/releases). Download only the named RecipeStudio-Setup-<version>.exe asset and its SHA256SUMS.txt. The initial beta is free for personal use with no expiry; read the [beta terms](BETA-TERMS.md).
 
+**Before installing:** the Windows installer is unsigned, so Windows SmartScreen may show an unknown-publisher or reputation warning. Download only from this repository's [Releases](https://github.com/kafeee80/CookidooRecipeStudioPublic/releases). Checksums verify downloaded bytes; they are not a digital signature. Do not disable Windows security protections.
+
+**Connecting your account:** your Cookidoo credentials and session cookies are held in the app's memory on your PC, not saved by the app between restarts. Connecting sends login requests to Cookidoo/Vorwerk, and uploading sends the recipe content to Cookidoo. There is no telemetry or automatic reporting, and the app does not send credentials or recipes to the developer. Browser password managers may separately save a login. [Privacy details](PRIVACY.md).
+
+Having trouble? Use the short [bug-report form](https://github.com/kafeee80/CookidooRecipeStudioPublic/issues/new?template=bug.yml) with your Cookidoo market, failing step and error text; sanitized recipe JSON is optional. **Issues and attachments are public.**
+
 ## What it does
 
 - Local browser editor with EN/CZ interface, ingredient links and Thermomix controls.

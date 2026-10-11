@@ -5,7 +5,7 @@ Download the [1.0.5 public beta](https://github.com/kafeee80/CookidooRecipeStudi
 1. Open the official [Releases](https://github.com/kafeee80/CookidooRecipeStudioPublic/releases) page. Read that version's limits and beta terms.
 2. Download RecipeStudio-Setup-<version>.exe and SHA256SUMS.txt. Do not download the repository ZIP expecting an app.
 3. In PowerShell, run Get-FileHash -Algorithm SHA256 -LiteralPath 'C:\Users\YOUR-USER\Downloads\RecipeStudio-Setup-<version>.exe' with your actual path/version. Compare the whole hash with SHA256SUMS.txt. A matching checksum checks downloaded bytes; it does not establish publisher identity or replace a digital signature.
-4. The initial public beta is **unsigned**. Windows may show an unknown-publisher or reputation warning. Do not disable Windows security protections. If unsure, cancel and ask in Issues.
+4. The initial public beta is **unsigned**. Windows SmartScreen may show an unknown-publisher or reputation warning. Do not disable Windows security protections. If unsure, cancel and ask in Issues.
 5. Run setup for your Windows account. On Select Destination Location, browse or enter a writable folder; the default is %LOCALAPPDATA%\Programs\RecipeStudio. Optional desktop and quiet sign-in startup shortcuts are unchecked by default. Installation and local editing work offline; Cookidoo needs internet access.
 6. Open Recipe Studio from Start. It starts a local server and opens your default browser. The tray icon may be under Windows' hidden-icons arrow. Closing the tab leaves the app running. Use tray Quit Recipe Studio or Start → Stop Recipe Studio to stop it; save first and wait for uploads to finish.
 
