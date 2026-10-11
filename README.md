@@ -12,6 +12,8 @@ Installers are available under [Releases](https://github.com/kafeee80/CookidooRe
 
 **Before installing:** the Windows installer is unsigned, so Windows SmartScreen may show an unknown-publisher or reputation warning. Download only from this repository's [Releases](https://github.com/kafeee80/CookidooRecipeStudioPublic/releases). Checksums verify downloaded bytes; they are not a digital signature. Do not disable Windows security protections.
 
+To check your download, each [release description](https://github.com/kafeee80/CookidooRecipeStudioPublic/releases) shows the installer’s SHA-256 and a copyable PowerShell Get-FileHash command. Compare the full hash before running setup.
+
 **Connecting your account:** your Cookidoo credentials and session cookies are held in the app's memory on your PC, not saved by the app between restarts. Connecting sends login requests to Cookidoo/Vorwerk, and uploading sends the recipe content to Cookidoo. There is no telemetry or automatic reporting, and the app does not send credentials or recipes to the developer. Browser password managers may separately save a login. [Privacy details](PRIVACY.md).
 
 Having trouble? Use the short [bug-report form](https://github.com/kafeee80/CookidooRecipeStudioPublic/issues/new?template=bug.yml) with your Cookidoo market, failing step and error text; sanitized recipe JSON is optional. **Issues and attachments are public.**
@@ -24,6 +26,16 @@ Having trouble? Use the short [bug-report form](https://github.com/kafeee80/Cook
 - One Upload/Update action with checking, Cookidoo read-back verification and upload recovery history.
 - Windows tray controls, optional quiet sign-in startup, configurable installation folder and upgrades that preserve saved recipes.
 - Twenty selectable Cookidoo markets; **only the Czech market has user-reported live upload and TM7 UI acceptance**. The others are experimental.
+
+## What has actually been tested?
+
+| Cookidoo market          | Thermomix model | Evidence and gaps                                                                                                                                                |
+| ------------------------ | --------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Czech Republic           | TM7             | User-reported live recipe upload, ingredient text links and machine controls visible on the device. Physical cooking of that acceptance recipe is not confirmed. |
+| Other selectable markets | TM7             | Public-route checks and automated mock tests only. Live login, upload and device testers needed; functionality is not guaranteed.                                |
+| Any market               | TM5 / TM6       | Native uploads are not implemented.                                                                                                                              |
+
+**New native modes and spoon speed still await live Cookidoo/TM7 acceptance, including in the Czech market.** Automated/source checks are not device testing. See [market choices](MARKETS.md) and [exact control limits](KNOWN-LIMITS.md). If you test another market, please [report your result](SUPPORT.md) and distinguish upload, device UI inspection and actual cooking.
 
 ![Example editor with synthetic test data](images/editor.png)
 ![Inspect-and-copy support diagnostics](images/diagnostics.png)
