@@ -4,9 +4,9 @@ Prepare your own recipes, link ingredients to instructions, and upload them to C
 
 An independent hobby project by **kafeee80**. Not affiliated with or endorsed by Vorwerk. Cookidoo and Thermomix are trademarks of their respective owners.
 
-## Public beta 1.0.5
+## Public beta 1.0.6
 
-[Download Recipe Studio 1.0.5](https://github.com/kafeee80/CookidooRecipeStudioPublic/releases/tag/v1.0.5). The initial Windows beta is available for personal use. This repository contains documentation and issue templates, not application source. GitHub's “Source code” ZIP is not the application.
+[Download Recipe Studio 1.0.6](https://github.com/kafeee80/CookidooRecipeStudioPublic/releases/tag/v1.0.6). The initial Windows beta is available for personal use. This repository contains documentation and issue templates, not application source. GitHub's “Source code” ZIP is not the application.
 
 Installers are available under [Releases](https://github.com/kafeee80/CookidooRecipeStudioPublic/releases). Download only the named RecipeStudio-Setup-<version>.exe asset and its SHA256SUMS.txt. The initial beta is free for personal use with no expiry; read the [beta terms](BETA-TERMS.md).
 

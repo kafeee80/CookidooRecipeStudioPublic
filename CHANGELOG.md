@@ -2,6 +2,13 @@
 
 1.0.3 is the first public beta. Earlier entries describe private test builds.
 
+## 1.0.6 — Czech recipe conversion prompt · 2026-10-17
+
+- Czech recipe instructions now request the exact ingredient-list name in every step that uses the ingredient. When natural Czech inflection differs, the exact name is added in parentheses, for example: jasmínové rýže (jasmínová rýže).
+- The prompt also requests explicit ingredient links for those mentions; ingredient references alone do not create Thermomix checklist items.
+- Quantities, natural instruction wording and existing link-snapshot review rules are preserved. Other recipe languages and the JSON schema are unchanged.
+- This improves the conversion instructions, not ChatGPT's guaranteed compliance. Review generated recipes and links before uploading. Existing market/device limitations remain.
+
 ## 1.0.5 — installation-folder selection · 2026-10-11
 
 - Shows the standard destination-folder page for new installs and upgrades; fresh installs can browse or enter a writable folder.

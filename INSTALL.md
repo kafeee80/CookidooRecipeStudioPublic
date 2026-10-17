@@ -1,6 +1,6 @@
 # Install and manage Recipe Studio
 
-Download the [1.0.5 public beta](https://github.com/kafeee80/CookidooRecipeStudioPublic/releases/tag/v1.0.5). The installer is unsigned.
+Download the [1.0.6 public beta](https://github.com/kafeee80/CookidooRecipeStudioPublic/releases/tag/v1.0.6). The installer is unsigned.
 
 1. Open the official [Releases](https://github.com/kafeee80/CookidooRecipeStudioPublic/releases) page. Read that version's limits and beta terms.
 2. Download RecipeStudio-Setup-<version>.exe and SHA256SUMS.txt. Do not download the repository ZIP expecting an app.
